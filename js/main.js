@@ -51,7 +51,7 @@ function excluir(id) {
     formulario.reset();
     lista.splice(id, 1);
     salvarLS();
-    
+    listar();
 }
 
 function editar(id) {
